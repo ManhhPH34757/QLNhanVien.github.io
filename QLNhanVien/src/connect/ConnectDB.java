@@ -19,6 +19,7 @@ public class ConnectDB {
 			connection = DriverManager.getConnection(url);
 		} catch (Exception e) {
 			System.out.println(e);
+			System.out.println("Lỗi");
 		}
 		
 		return connection;
